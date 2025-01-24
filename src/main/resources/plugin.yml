@@ -1,0 +1,7 @@
+name: BlockBroadcast
+version: '${project.version}'
+main: pl.stylowamc.blockbroadcast.BlockBroadcast
+api-version: '1.20'
+commands:
+  setbroadcastblock:
+    description: Assign broadcastmessage to specific block
