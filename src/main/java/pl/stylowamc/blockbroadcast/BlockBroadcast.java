@@ -14,6 +14,8 @@ public final class BlockBroadcast extends JavaPlugin {
 
         this.getCommand("setbroadcastblock").setExecutor(new SetBroadcastBlock(this.getConfig()));
         getServer().getPluginManager().registerEvents(new BroadcastBlockClick(this.getConfig()), this);
+
+        getLogger().info("BlockBroadcast enabled!");
     }
 
     @Override
